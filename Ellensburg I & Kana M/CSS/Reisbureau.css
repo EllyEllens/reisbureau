@@ -1,0 +1,183 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../FOTO/back.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.reis h1 {
+    color: rgb(0, 184, 246);
+    text-align: center;
+    margin-top: 0;
+    background-color: white;
+}
+
+.reis table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table {
+    background-color: white; 
+}
+
+.reis th,
+.reis td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.reis th {
+    background-color: #f2f2f2;
+}
+
+.insert-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.insert-button:hover {
+    background-color: rgb(255, 128, 0);
+}
+
+.update-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.update-button:hover {
+    background-color: rgb(255, 128, 0);
+}
+
+.delete-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.delete-button:hover {
+    background-color: rgb(255, 128, 0);
+}
+
+.boeken-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.boeken-button:hover {
+    background-color: rgb(255, 128, 0);
+}
+
+.Boek {
+    background-color: blue; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 10px; 
+}
+
+.Boek:hover {
+    background-color: rgb(255, 128, 0);
+}
+
+.reis h3{
+    background-color: white;
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.vlucht {
+    background-color:  blue; 
+}
+
+.vlucht:hover {
+    background-color:  rgb(255, 128, 0); 
+}
+
+.hotel {
+    background-color:  blue; 
+}
+
+.hotel:hover {
+    background-color:  rgb(255, 128, 0); 
+}
+
+
+.even:hover {
+    background-color:  rgb(255, 128, 0); 
+}
+
+.even {
+    background-color:  blue; 
+}
+
+.plaats:hover {
+    background-color:  rgb(255, 128, 0); 
+}
+
+.plaats {
+    background-color:  blue; 
+}
+
+.home {
+    background-color:  blue; 
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.home:hover {
+    background-color:  rgb(255, 128, 0); 
+}
